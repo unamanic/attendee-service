@@ -9,7 +9,7 @@ resources:
 - name: deploy-attendee-service
   type: cf
   source:
-    api: api.run.pez.pivotal.io
+    api: api.run-02.haas-66.pez.pivotal.io
     username: {{cf-user}}
     password: {{cf-password}}
     organization: wwitt-pal
